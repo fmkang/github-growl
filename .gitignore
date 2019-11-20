@@ -17,7 +17,7 @@ pids
 logs
 results
 
-node_modules
+node_modules/*
 npm-debug.log
 
 
@@ -101,3 +101,6 @@ dwsync.xml
 # ------------------------------------------------------------------------------
 # Add your custom excludes below
 # ------------------------------------------------------------------------------
+
+!node_modules/github
+!node_modules/growl
