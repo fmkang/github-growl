@@ -43,7 +43,7 @@ var getUsername = function getUsername(callback) {
   });
 };
 
-var getPassword = function getPasswotad(callback) {
+var getPassword = function getPassword(callback) {
   program.password('Github Password: ', function(password) {
     process.stdin.destroy();
     return callback(password);
